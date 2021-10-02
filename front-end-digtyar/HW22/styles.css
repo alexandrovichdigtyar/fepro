@@ -1,0 +1,106 @@
+button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+H3 {
+    text-shadow:
+      1px 1px 1px silver,
+      -1px 1px 1px silver;
+    color: white;
+    transition: all .5s;
+  }
+
+  H1:hover {
+    text-shadow:
+      -1px -1px 1px silver,
+      1px -1px 1px silver;
+    color: white;
+  }
+
+
+  H1 {
+    display: inline-block;
+    position: relative;
+    letter-spacing: .05em;
+    text-shadow:
+      1px 1px mediumturquoise,
+      -1px 1px mediumturquoise,
+      -1px -1px mediumturquoise,
+      1px -1px mediumturquoise;
+    color: white;
+    transition: all 1s;
+  }
+  
+  H1:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -15px;
+    bottom: -15px;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(
+      -45deg,
+      rgba(72, 209, 204, 0) 2px,
+      mediumturquoise 3px,
+      rgba(72, 209, 204, 0) 3px )
+      repeat;
+    background-size: 4px 4px;
+  }
+  
+    p:after {
+    content: attr(data-name);
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    z-index: -2;
+    text-shadow:
+      1px 1px white,
+      2px 2px white,
+      3px 3px white,
+      4px 4px white;
+    color: white;
+    transition: all 1s;
+  }
+  
+  p:hover {
+    color: lemonchiffon;
+  }
+  
+  p:hover:before {
+    animation: 5s move_lines infinite linear;
+  }
+  
+  p:hover:after {
+    color: lemonchiffon;
+    text-shadow:
+      1px 1px lemonchiffon,
+      2px 2px lemonchiffon,
+      3px 3px lemonchiffon,
+      4px 4px lemonchiffon;
+  }
+
+  input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+  }
+
+body {
+    background-image: url("https://img1.akspic.ru/previews/1/8/9/8/4/148981/148981-nebo-mestnost-utro-solnechnyj_svet-pogoda-x750.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}

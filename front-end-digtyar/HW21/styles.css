@@ -1,0 +1,19 @@
+button {
+    background: maroon; /* Цвет фона ячеек */
+    padding: 5px; 
+    color: white;
+}
+
+h3 {
+    height: 75px;
+    text-align: center;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
