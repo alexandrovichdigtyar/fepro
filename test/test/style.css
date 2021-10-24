@@ -1,0 +1,26 @@
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table th,
+.table td {
+	border: 1px solid #000000;
+	padding: 10px;
+}
+
+thead {
+	background-color: #000000;
+	color: white;
+}
+
+tfoot {
+	color: red;
+}
+
+ .products:hover {
+	background-color: lightblue;
+}
+
+#totalAmount:hover{
+	border-bottom: red solid 2px;
+}

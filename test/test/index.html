@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test</title>
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <table class="table">
+      <thead>
+       <tr>
+        <th>Название товара</th>
+        <th>Количество</th>
+        <th>Стоимость 1 ед.</th>
+        <th id="totalAmount">Общая стоимость</th>
+       </tr>
+      </thead>
+      <tbody>
+        <tr class="products">
+          <td>Красный носок</td>
+          <td><input id="amount-first-product" onchange="" type="text"></td>
+          <td><input id="price-first-product" type="text"></td>
+          <td id="total-cost-first-product"></td>
+        </tr>
+        <tr class="products">
+          <td>Синий носок</td>
+          <td><input id="amount-second-product" type="text"></td>
+          <td><input id="price-second-product" type="text"></td>
+          <td id="total-cost-second-product"></td>
+        </tr>
+        <tr class="products">
+          <td>Бесцветный носок</td>
+          <td><input id="amount-third-product" type="text"></td>
+          <td><input id="price-third-product" type="text"></td>
+          <td id="total-cost-third-product"></td>
+        </tr>
+        <tfoot>
+          <td colspan="3">Общая стоимость всех товаров</td>
+          <td id="total-cost-all-products"></td>
+        </tfoot>
+      </tbody>
+    </table>
+
+
+  </body>
+</html>
