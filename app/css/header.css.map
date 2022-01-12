@@ -1,0 +1,1 @@
+{"version":3,"sources":["header.scss","header.css"],"names":[],"mappings":"AAAA;EACI,oBAAa;EAAb,oBAAa;EAAb,aAAa;EACb,yBAA8B;MAA9B,sBAA8B;UAA9B,8BAA8B;ACClC","file":"header.css","sourcesContent":[".header {\n    display: flex;\n    justify-content: space-between;\n}\n",".header {\n  display: flex;\n  justify-content: space-between;\n}\n"]}

@@ -1,0 +1,212 @@
+.services {
+    padding-bottom: 13px;
+
+    &__wrapper {
+        background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+        border-radius: 0px 0px 12px 12px;
+        padding-top: 20px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+
+        &_no-pb {
+            padding: 0px;
+        }
+    }
+
+    &__list-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__list li {
+        font-size: 42px;
+        line-height: 50px;
+        text-align: right;
+        color: #B3B3BA;
+        border-right: 4px solid #E6E6F0;
+        padding-right: 40px;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+
+    &__list {
+        padding-top: 150px;
+        /* max-width: 33%; */
+    }
+
+    &__border {
+        height: 10px;
+        background: #CACADB;
+        border-radius: 0px 0px 12px 12px;
+        margin: 0 20px;
+    }
+
+    &__border_grey {
+        background: #E7E7F2;
+        margin: 0 40px;
+    }
+
+    &__list li:hover {
+
+    }
+
+    &__mobile-swiper {
+        display: none;
+    }
+
+    &__swiper-heading {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #F0145A;
+        margin-bottom: 10px;
+    }
+
+    &__swiper-about {
+        font-size: 22px;
+        line-height: 26px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+
+    &__swiper-text {
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+
+    &__swiper-nav {
+        display: flex;
+        justify-content: space-between;
+        max-width: 125px;
+        bottom: 0px;
+        left: 0;
+        position: static;
+        padding-top: 18px;
+        padding-right: 10px;
+        margin: 0 auto;
+        & span {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    &__list-wrapper {
+        display: flex;
+    }
+
+    &__info {
+        margin-left: 40px;
+        max-width: 43.7%;
+        padding-top: 52px;
+    }
+    &__info__heading {
+        font-size: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+    &__info__text {
+        font-size: 21px;
+        line-height: 30px;
+        color: #FFFFFF;
+        padding-top: 20px;
+    }
+    &__list-wrapper {
+        display: flex;
+    }
+
+    &__borders {
+        background-color: #FFFFFF;
+    }
+
+    &__link {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.5;
+    }
+
+    &__header {
+        font-weight: bold;
+        font-size: 42px;
+        line-height: 50px;
+        color: #F0145A;
+    }
+
+    &_mg-top-110 {
+        margin-top: 110px;
+    }
+
+    &_mg-top-101 {
+        margin-top: 101px;
+    }
+
+    &_mg-top-80 {
+        margin-top: 80px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &_mg-top-68 {
+            margin-top: 68px;
+        }
+    }
+
+    &__item {
+        width: 31.3%;
+
+        &__heading {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #24A3FF;
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        &_mg-top-58 {
+            margin-top: 58px;
+        }
+
+    }
+}
+
+.services .services__slider {
+    display: none;
+}
+
+.services__list .active {
+    color: #F0145A;
+    border-right: 4px solid #F0145A;
+}
+
+.services__list .active-slider {
+    background-color: #24A3FF;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin-right: 10px;
+}
+
+

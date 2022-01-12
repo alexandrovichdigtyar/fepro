@@ -1,0 +1,42 @@
+.about {
+    &__wrapper {
+        background-image: url(../img/bg_about.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+    }
+    &__heading {
+        padding-top: 202px;
+       /*  padding-bottom: 352px; */
+        z-index: 3;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 45px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 500px;
+        position: relative;
+    }
+
+    &__img-wrapper {
+        position: absolute;
+        z-index: 1;
+        margin-top: 144px;
+        margin-right: 161px;
+    }
+
+    &__scroll-btn {
+        display: flex;
+        height: 42px;
+        width: 42px;
+        height: 42px;
+        width: 42px;
+        margin: 0 auto;
+        margin-top: 287px;
+    }
+}
+
+
+
+
